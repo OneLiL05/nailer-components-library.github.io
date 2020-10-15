@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+    margin: 0;
+}
+
+/*Button Styles*/
+
+/*Default*/
+
+.secondary-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #0F6FFF;
+    border-radius: 10px;
+    border: 2px solid #0F6FFF;
+    outline: none;
+    cursor: pointer;
+}
+
+/*Hover*/
+
+.secondary-btn:hover {
+    transition: 0.4ms;
+    box-shadow: 5px 5px 20px #DBEAFF;
+}
+
+/*Focus*/
+
+.secondary-btn:focus {
+    background-color: #DBEAFF;
+}
+
+/*Active*/
+
+.secondary-btn:focus:active {
+    background-color: #B5D2FF;
+}
+
+/*Disabled*/
+
+.secondary-btn:disabled {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    background-color: #EFF2F8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #999999;
+    border-radius: 10px;
+    border: 2px solid #818997;
+    outline: none;
+    cursor: auto;
+    /*Don't copy this style*/
+    margin-top: 40px;
+}
+
+.secondary-btn:disabled:hover {
+    box-shadow: none;
+
+}
+
