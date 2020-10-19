@@ -9,71 +9,70 @@ body {
     margin: 0;
 }
 
-/*Button Styles*/
+/*Button Style's*/
 
 /*Default*/
 
-.primary-btn {
+.tertiary-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 300px;
     height: 60px;
-    background-color: #0F6FFF;
+    background-color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    color: #0F6FFF;
     border-radius: 10px;
-    color: #fff;
-    outline: none;
     border: none;
+    outline: none;
     cursor: pointer;
 }
 
 /*Hover*/
 
-.primary-btn:hover {
-    transition: 0.4ms;
+.tertiary-btn:hover {
+    transition: .4ms;
     box-shadow: 5px 5px 20px rgba(15, 111, 255, 0.4);
 }
 
 /*Focus*/
 
-.primary-btn:focus {
-    box-shadow: 0 0 0 2px #0F6FFF;
-    border: 2px solid #fff;
+.tertiary-btn:focus {
+    background-color: #F1F7FF;
+    border: 2px solid #0F6FFF;
 }
 
 /*Active*/
 
-.primary-btn:focus:active {
-    background-color: #1E6BDD;
-    outline: none;
-    box-shadow: none;
+.tertiary-btn:focus:active {
+    background-color: #D6E6FF;
     border: none;
+    outline: none;
 }
 
 /*Disabled*/
 
-.primary-btn:disabled {
+.tertiary-btn:disabled {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 300px;
     height: 60px;
-    background-color: #81B5FD;
+    background-color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    color: #999999;
     border-radius: 10px;
-    color: #fff;
-    outline: none;
     border: none;
+    outline: none;
+    cursor: auto;
     /*Don't copy this style*/
     margin-top: 40px;
 }
 
-.primary-btn:disabled:hover {
+.tertiary-btn:disabled:hover {
     box-shadow: none;
-    cursor: auto;
 }

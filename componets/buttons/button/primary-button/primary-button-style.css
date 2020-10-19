@@ -5,7 +5,6 @@ body {
     flex-direction: column;
     width: 100%;
     height: 900px;
-    background-color: #fff;
     margin: 0;
 }
 
@@ -13,65 +12,67 @@ body {
 
 /*Default*/
 
-.secondary-btn {
+.primary-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 300px;
     height: 60px;
-    background-color: #fff;
+    background-color: #0F6FFF;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: #0F6FFF;
     border-radius: 10px;
-    border: 2px solid #0F6FFF;
+    color: #fff;
     outline: none;
+    border: none;
     cursor: pointer;
 }
 
 /*Hover*/
 
-.secondary-btn:hover {
+.primary-btn:hover {
     transition: 0.4ms;
-    box-shadow: 5px 5px 20px #DBEAFF;
+    box-shadow: 5px 5px 20px rgba(15, 111, 255, 0.4);
 }
 
 /*Focus*/
 
-.secondary-btn:focus {
-    background-color: #DBEAFF;
+.primary-btn:focus {
+    box-shadow: 0 0 0 2px #0F6FFF;
+    border: 2px solid #fff;
 }
 
 /*Active*/
 
-.secondary-btn:focus:active {
-    background-color: #B5D2FF;
+.primary-btn:focus:active {
+    background-color: #1E6BDD;
+    outline: none;
+    box-shadow: none;
+    border: none;
 }
 
 /*Disabled*/
 
-.secondary-btn:disabled {
+.primary-btn:disabled {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 300px;
     height: 60px;
-    background-color: #EFF2F8;
+    background-color: #81B5FD;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: #999999;
     border-radius: 10px;
-    border: 2px solid #818997;
+    color: #fff;
     outline: none;
-    cursor: auto;
+    border: none;
     /*Don't copy this style*/
     margin-top: 40px;
 }
 
-.secondary-btn:disabled:hover {
+.primary-btn:disabled:hover {
     box-shadow: none;
-
+    cursor: auto;
 }
-
