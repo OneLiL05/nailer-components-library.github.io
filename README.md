@@ -9,5 +9,4 @@ if you find some bags or you want to give me some feedback read my contact info 
 
 🔗 GitHub: [https://github.com/OneLiL05](https://github.com/OneLiL05)
 
->You can touch components in CodePen project directory
-URL: [https://codepen.io/onelil05/project/details/ZdVOKE](https://codepen.io/onelil05/project/details/ZdVOKE)
+>You can touch components in CodePen project directory: [https://codepen.io/onelil05/project/details/ZdVOKE](https://codepen.io/onelil05/project/details/ZdVOKE)
