@@ -9,11 +9,11 @@ body {
     margin: 0;
 }
 
-/*Button Style's*/
+/*Button Styles*/
 
 /*Default*/
 
-.tertiary-btn {
+.secondary-large-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,57 +22,55 @@ body {
     background-color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #0F6FFF;
     border-radius: 10px;
-    border: none;
+    border: 2px solid #0F6FFF;
     outline: none;
     cursor: pointer;
 }
 
 /*Hover*/
 
-.tertiary-btn:hover {
-    transition: .4ms;
+.secondary-large-button:hover {
+    transition: 0.4ms;
     box-shadow: 5px 5px 20px rgba(15, 111, 255, 0.4);
 }
 
 /*Focus*/
 
-.tertiary-btn:focus {
-    background-color: #F1F7FF;
-    border: 2px solid #0F6FFF;
+.secondary-large-button:focus {
+    background-color: #DBEAFF;
 }
 
 /*Active*/
 
-.tertiary-btn:focus:active {
-    background-color: #D6E6FF;
+.secondary-large-button:focus:active {
+    background-color: #B5D2FF;
     border: none;
-    outline: none;
 }
 
 /*Disabled*/
 
-.tertiary-btn:disabled {
+.secondary-large-button:disabled {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 300px;
     height: 60px;
-    background-color: #fff;
+    background-color: #EFF2F8;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #999999;
     border-radius: 10px;
-    border: none;
+    border: 2px solid #818997;
     outline: none;
     cursor: auto;
     /*Don't copy this style*/
     margin-top: 40px;
 }
 
-.tertiary-btn:disabled:hover {
+.secondary-large-button:disabled:hover {
     box-shadow: none;
 }
