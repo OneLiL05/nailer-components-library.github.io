@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+    margin: 0;
+}
+
+/*Button Style's*/
+
+/*Default*/
+
+.primary-large-icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    background-color: #0F6FFF;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/*Hover*/
+
+.primary-large-icon-button:hover {
+    transition: 0.4ms;
+    box-shadow: 5px 5px 20px rgba(15, 111, 255, 0.4);
+}
+
+/*Focus*/
+
+.primary-large-icon-button:focus {
+    box-shadow: 0 0 0 2px #0F6FFF;
+    border: 2px solid #fff;
+}
+
+/*Active*/
+
+.primary-large-icon-button:focus:active {
+    background-color: #1E6BDD;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+/*Disabled*/
+
+.primary-large-icon-button:disabled {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    background-color: #81B5FD;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: auto;
+    /*Don't copy this style*/
+    margin-top: 40px;
+}
+
+.primary-large-icon-button:disabled:hover {
+    box-shadow: none;
+}
