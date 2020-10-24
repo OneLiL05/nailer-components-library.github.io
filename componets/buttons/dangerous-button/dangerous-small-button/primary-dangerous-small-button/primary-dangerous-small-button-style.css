@@ -17,10 +17,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
+    width: 200px;
     height: 60px;
     background-color: #FF3E33;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
     border-radius: 10px;
+    color: #fff;
     outline: none;
     border: none;
     cursor: pointer;
@@ -52,8 +56,22 @@ body {
 /*Disabled*/
 
 .primary-dangerous-small-button:disabled {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
     background-color: #FF8680;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+    border: none;
     cursor: auto;
+    /*Don't copy this style*/
+    margin-top: 40px;
 }
 
 .primary-dangerous-small-button:disabled:hover {

@@ -43,7 +43,6 @@ body {
 
 .primary-large-icon-button:focus:active {
     background-color: #1E6BDD;
-    outline: none;
     box-shadow: none;
     border: none;
 }
@@ -51,18 +50,8 @@ body {
 /*Disabled*/
 
 .primary-large-icon-button:disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 60px;
     background-color: #81B5FD;
-    border-radius: 10px;
-    outline: none;
-    border: none;
     cursor: auto;
-    /*Don't copy this style*/
-    margin-top: 40px;
 }
 
 .primary-large-icon-button:disabled:hover {

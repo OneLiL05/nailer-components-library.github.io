@@ -52,18 +52,8 @@ body {
 /*Disabled*/
 
 .primary-dangerous-large-button:disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 60px;
     background-color: #FF8680;
-    border-radius: 10px;
-    outline: none;
-    border: none;
     cursor: auto;
-    /*Don't copy this style*/
-    margin-top: 40px;
 }
 
 .primary-dangerous-large-button:disabled:hover {

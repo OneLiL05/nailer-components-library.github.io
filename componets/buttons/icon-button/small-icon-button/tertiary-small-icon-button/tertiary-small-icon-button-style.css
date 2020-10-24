@@ -13,7 +13,7 @@ body {
 
 /*Default*/
 
-.tertiary-simple-icon-button {
+.tertiary-small-icon-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,21 +28,21 @@ body {
 
 /*Hover*/
 
-.tertiary-simple-icon-button:hover {
+.tertiary-small-icon-button:hover {
     transition: .4ms;
     box-shadow: 5px 5px 20px rgba(15, 111, 255, 0.4);
 }
 
 /*Focus*/
 
-.tertiary-simple-icon-button:focus {
+.tertiary-small-icon-button:focus {
     background-color: #F1F7FF;
     border: 2px solid #0F6FFF;
 }
 
 /*Active*/
 
-.tertiary-simple-icon-button:focus:active {
+.tertiary-small-icon-button:focus:active {
     background-color: #D6E6FF;
     border: none;
     outline: none;
@@ -50,21 +50,10 @@ body {
 
 /*Disabled*/
 
-.tertiary-simple-icon-button:disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    background-color: #fff;
-    border-radius: 10px;
-    border: none;
-    outline: none;
+.tertiary-small-icon-button:disabled {
     cursor: auto;
-    /*Don't copy this style*/
-    margin-top: 40px;
 }
 
-.tertiary-simple-icon-button:disabled:hover {
+.tertiary-small-icon-button:disabled:hover {
     box-shadow: none;
 }

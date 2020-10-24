@@ -8,22 +8,18 @@ body {
     margin: 0;
 }
 
-/*Button Styles*/
+/*Button Style's*/
 
 /*Default*/
 
-.primary-small-button {
+.primary-small-icon-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
+    width: 60px;
     height: 60px;
     background-color: #0F6FFF;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
     border-radius: 10px;
-    color: #fff;
     outline: none;
     border: none;
     cursor: pointer;
@@ -31,21 +27,21 @@ body {
 
 /*Hover*/
 
-.primary-small-button:hover {
+.primary-small-icon-button:hover {
     transition: 0.4ms;
     box-shadow: 5px 5px 20px rgba(15, 111, 255, 0.4);
 }
 
 /*Focus*/
 
-.primary-small-button:focus {
+.primary-small-icon-button:focus {
     box-shadow: 0 0 0 2px #0F6FFF;
     border: 2px solid #fff;
 }
 
 /*Active*/
 
-.primary-small-button:focus:active {
+.primary-small-icon-button:focus:active {
     background-color: #1E6BDD;
     outline: none;
     box-shadow: none;
@@ -54,11 +50,21 @@ body {
 
 /*Disabled*/
 
-.primary-small-button:disabled {
+.primary-small-icon-button:disabled {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
     background-color: #81B5FD;
+    border-radius: 10px;
+    outline: none;
+    border: none;
     cursor: auto;
+    /*Don't copy this style*/
+    margin-top: 40px;
 }
 
-.primary-small-button:disabled:hover {
+.primary-small-icon-button:disabled:hover {
     box-shadow: none;
 }

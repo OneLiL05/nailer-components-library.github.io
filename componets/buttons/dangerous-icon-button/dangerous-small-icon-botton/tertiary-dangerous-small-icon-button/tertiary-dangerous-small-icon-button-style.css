@@ -51,18 +51,7 @@ body {
 /*Disabled*/
 
 .tertiary-dangerous-small-icon-button:disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    background-color: #fff;
-    border-radius: 10px;
-    outline: none;
-    border: none;
     cursor: auto;
-    /*Don't copy this style*/
-    margin-top: 40px;
 }
 
 .tertiary-dangerous-small-icon-button:disabled:hover {

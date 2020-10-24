@@ -55,22 +55,8 @@ body {
 /*Disabled*/
 
 .tertiary-large-button:disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 60px;
-    background-color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 1.125rem;
     color: #999999;
-    border-radius: 10px;
-    border: none;
-    outline: none;
     cursor: auto;
-    /*Don't copy this style*/
-    margin-top: 40px;
 }
 
 .tertiary-large-button:disabled:hover {

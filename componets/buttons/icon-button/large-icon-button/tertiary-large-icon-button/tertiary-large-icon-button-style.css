@@ -50,18 +50,7 @@ body {
 /*Disabled*/
 
 .tertiary-large-icon-button:disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 60px;
-    background-color: #fff;
-    border-radius: 10px;
-    border: none;
-    outline: none;
     cursor: auto;
-    /*Don't copy this style*/
-    margin-top: 40px;
 }
 
 .tertiary-large-icon-button:hover {

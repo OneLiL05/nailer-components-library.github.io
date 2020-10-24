@@ -9,56 +9,57 @@ body {
     margin: 0;
 }
 
-/*Button Styles*/
+/*Button Style's*/
 
 /*Default*/
 
-.secondary-large-button {
+.primary-dangerous-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 300px;
     height: 60px;
-    background-color: #fff;
+    background-color: #FF3E33;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.125rem;
-    color: #0F6FFF;
+    font-size: 18px;
     border-radius: 10px;
-    border: 2px solid #0F6FFF;
+    color: #fff;
     outline: none;
+    border: none;
     cursor: pointer;
 }
 
 /*Hover*/
 
-.secondary-large-button:hover {
-    transition: 0.4ms;
-    box-shadow: 5px 5px 20px rgba(15, 111, 255, 0.4);
+.primary-dangerous-btn:hover {
+    transition: .4ms;
+    box-shadow: 5px 5px 20px rgba(255, 62, 51, 0.4);
 }
 
 /*Focus*/
 
-.secondary-large-button:focus {
-    background-color: #DBEAFF;
+.primary-dangerous-btn:focus {
+    box-shadow: 0 0 0 2px #FF3E33;
+    border: 2px solid #fff;
 }
 
 /*Active*/
 
-.secondary-large-button:focus:active {
-    background-color: #B5D2FF;
+.primary-dangerous-btn:focus:active {
+    background-color: #D3382F;
+    box-shadow: none;
     border: none;
+    outline: none;
 }
 
 /*Disabled*/
 
-.secondary-large-button:disabled {
-    background-color: #EFF2F8;
-    color: #999999;
-    border: 2px solid #818997;
+.primary-dangerous-btn:disabled {
+    background-color: #FF8680;
     cursor: auto;
 }
 
-.secondary-large-button:disabled:hover {
+.primary-dangerous-btn:disabled:hover {
     box-shadow: none;
 }
