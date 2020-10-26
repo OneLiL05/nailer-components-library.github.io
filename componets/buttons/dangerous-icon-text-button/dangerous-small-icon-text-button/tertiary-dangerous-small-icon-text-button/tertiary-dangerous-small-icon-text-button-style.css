@@ -13,52 +13,54 @@ body {
 
 /*Default*/
 
-.secondary-dangerous-large-icon-text-button {
+.tertiary-dangerous-small-icon-text-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 200px;
     height: 60px;
     background-color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: #FF3E33;
     border-radius: 10px;
-    border: 2px solid #FF3E33;
-    gap: 10px;
+    border: none;
     outline: none;
     cursor: pointer;
 }
 
 /*Hover*/
 
-.secondary-dangerous-large-icon-text-button:hover {
+.tertiary-dangerous-small-icon-text-button:hover {
     transition: 0.4ms;
     box-shadow: 5px 5px 20px rgba(255, 62, 51, 0.4);
 }
 
 /*Focus*/
 
-.secondary-dangerous-large-icon-text-button:focus {
-    background-color: #FFDCDA;
+.tertiary-dangerous-small-icon-text-button:focus {
+    background-color: #FFF0F0;
+    border: 2px solid #FF3E33;
+    outline: none;
 }
 
 /*Active*/
 
-.secondary-dangerous-large-icon-text-button:focus:active {
-    background-color: #FFC2BF;
+.tertiary-dangerous-small-icon-text-button:focus:active {
+    background-color: #FFDAD9;
+    border: none;
 }
 
 /*Disabled*/
 
-.secondary-dangerous-large-icon-text-button:disabled {
-    background-color: #FFE6E4;
+.tertiary-dangerous-small-icon-text-button:disabled {
     color: #EE6861;
-    border: 2px solid #FFB4B0;
+    border: none;
+    outline: none;
     cursor: auto;
 }
 
-.secondary-dangerous-large-icon-text-button:disabled:hover {
+.tertiary-dangerous-small-icon-text-button:disabled:hover {
     box-shadow: none;
 }

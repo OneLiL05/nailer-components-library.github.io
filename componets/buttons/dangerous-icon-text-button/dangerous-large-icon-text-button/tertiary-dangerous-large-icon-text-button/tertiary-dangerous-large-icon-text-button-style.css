@@ -22,7 +22,7 @@ body {
     background-color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.125rem;
     color: #FF3E33;
     border-radius: 10px;
     border: none;
@@ -59,4 +59,7 @@ body {
     border: none;
     outline: none;
     cursor: auto;
+}
+.tertiary-dangerous-large-icon-text-button:disabled:hover {
+    box-shadow: none;
 }

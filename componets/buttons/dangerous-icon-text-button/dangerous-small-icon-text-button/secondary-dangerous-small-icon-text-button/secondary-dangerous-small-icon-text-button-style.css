@@ -13,16 +13,16 @@ body {
 
 /*Default*/
 
-.secondary-dangerous-large-icon-text-button {
+.secondary-dangerous-small-icon-text-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 200px;
     height: 60px;
     background-color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: #FF3E33;
     border-radius: 10px;
     border: 2px solid #FF3E33;
@@ -33,32 +33,32 @@ body {
 
 /*Hover*/
 
-.secondary-dangerous-large-icon-text-button:hover {
+.secondary-dangerous-small-icon-text-button:hover {
     transition: 0.4ms;
     box-shadow: 5px 5px 20px rgba(255, 62, 51, 0.4);
 }
 
 /*Focus*/
 
-.secondary-dangerous-large-icon-text-button:focus {
+.secondary-dangerous-small-icon-text-button:focus {
     background-color: #FFDCDA;
 }
 
 /*Active*/
 
-.secondary-dangerous-large-icon-text-button:focus:active {
+.secondary-dangerous-small-icon-text-button:focus:active {
     background-color: #FFC2BF;
 }
 
 /*Disabled*/
 
-.secondary-dangerous-large-icon-text-button:disabled {
+.secondary-dangerous-small-icon-text-button:disabled {
     background-color: #FFE6E4;
     color: #EE6861;
     border: 2px solid #FFB4B0;
     cursor: auto;
 }
 
-.secondary-dangerous-large-icon-text-button:disabled:hover {
+.secondary-dangerous-small-icon-text-button:disabled:hover {
     box-shadow: none;
 }
