@@ -1,5 +1,4 @@
-> **Nailer Components Library** - it's opensourse components library for personal and commercial use,
-if you find some bugs or you want to give me some feedback read my contact info in bottom. Documentation site coming soon
+> **Nailer Components Library** - is an open source components library both for personal and commercial use. If you'll find bugs or just decide to give me feedback feel free to contact me using the info from the bottom of README file. Documentation site coming soon.
 
 # ☎️ You can contact me
 
