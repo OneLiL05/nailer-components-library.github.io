@@ -1,5 +1,5 @@
-> **design-components-library** - it's opensourse components library for personal and commercial use,
-if you find some bags or you want to give me some feedback read my contact info in bottom. Documentation site coming soon
+> **Nailer Components Library** - it's opensourse components library for personal and commercial use,
+if you find some bugs or you want to give me some feedback read my contact info in bottom. Documentation site coming soon
 
 # ☎️ You can contact me
 
