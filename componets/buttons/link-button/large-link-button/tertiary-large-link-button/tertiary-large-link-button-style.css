@@ -9,17 +9,21 @@ body {
     margin: 0;
 }
 
-/*Button Styles*/
+/*Button Style's*/
 
 /*Default*/
 
-.tertiary-small-icon-link-button {
+.tertiary-large-link-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
+    width: 300px;
     height: 60px;
     background-color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #0F6FFF;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -29,21 +33,21 @@ body {
 
 /*Hover*/
 
-.tertiary-small-icon-link-button:hover {
+.tertiary-large-link-button:hover {
     transition: .4ms;
     box-shadow: 5px 5px 20px rgba(15, 111, 255, 0.4);
 }
 
 /*Focus*/
 
-.tertiary-small-icon-link-button:focus {
+.tertiary-large-link-button:focus {
     background-color: #F1F7FF;
     border: 2px solid #0F6FFF;
 }
 
 /*Active*/
 
-.tertiary-small-icon-link-button:focus:active {
+.tertiary-large-link-button:focus:active {
     background-color: #D6E6FF;
     border: none;
     outline: none;
@@ -51,17 +55,21 @@ body {
 
 /*Disabled*/
 
-.tertiary-small-icon-link-button-disabled {
+.tertiary-large-link-button-disabled {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
+    width: 300px;
     height: 60px;
     background-color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #999999;
     border-radius: 10px;
     border: none;
     outline: none;
     cursor: auto;
-    pointer-events: none;
     text-decoration: none;
+    pointer-events: none;
 }

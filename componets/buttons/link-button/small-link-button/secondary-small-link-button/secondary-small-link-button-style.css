@@ -5,58 +5,70 @@ body {
     flex-direction: column;
     width: 100%;
     height: 900px;
+    background-color: #fff;
     margin: 0;
 }
 
-/*Button Style's*/
+/*Button Styles*/
 
 /*Default*/
 
-.secondary-small-icon-link-button {
+.secondary-small-link-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
+    width: 200px;
     height: 60px;
-    background-color: #B5D2FF;
-    border: 2px solid #0F6FFF;
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #0F6FFF;
     border-radius: 10px;
+    border: 2px solid #0F6FFF;
     outline: none;
     cursor: pointer;
     text-decoration: none;
+    pointer-events: none;
 }
 
 /*Hover*/
 
-.secondary-small-icon-link-button:hover {
+.secondary-small-link-button:hover {
     transition: 0.4ms;
     box-shadow: 5px 5px 20px rgba(15, 111, 255, 0.4);
 }
 
 /*Focus*/
 
-.secondary-small-icon-link-button:focus {
+.secondary-small-link-button:focus {
     background-color: #DBEAFF;
 }
 
 /*Active*/
 
-.secondary-small-icon-link-button:focus:active {
+.secondary-small-link-button:focus:active {
     background-color: #B5D2FF;
     border: none;
 }
 
-.secondary-small-icon-link-button-disabled {
+/*Disabled*/
+
+.secondary-small-link-button-disabled {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
+    width: 200px;
     height: 60px;
     background-color: #EFF2F8;
-    border: 2px solid #818997;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #999999;
     border-radius: 10px;
+    border: 2px solid #818997;
     outline: none;
     cursor: auto;
-    pointer-events: none;
     text-decoration: none;
+    pointer-events: none;
 }
