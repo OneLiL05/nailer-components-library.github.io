@@ -12,51 +12,53 @@ body {
 
 /*Default*/
 
-.secondary-large-icon-text-link-button, .secondary-large-icon-text-link-button-disabled {
+.primary-small-icon-text-link-button, .primary-large-icon-text-link-button-disabled {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 200px;
     height: 60px;
-    background-color: #fff;
+    background-color: #0F6FFF;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.125rem;
-    color: #0F6FFF;
-    gap: 10px;
+    font-size: 1rem;
+    color: #fff;
     border-radius: 10px;
-    border: 2px solid #0F6FFF;
+    gap: 10px;
     outline: none;
+    border: none;
     cursor: pointer;
     text-decoration: none;
 }
 
 /*Hover*/
 
-.secondary-large-icon-text-link-button:hover {
+.primary-large-icon-text-link-button:hover {
     transition: 0.4ms;
     box-shadow: 5px 5px 20px rgba(15, 111, 255, 0.4);
 }
 
 /*Focus*/
 
-.secondary-large-icon-text-link-button:focus {
-    background-color: #DBEAFF;
+.primary-large-icon-text-link-button:focus {
+    box-shadow: 0 0 0 2px #0F6FFF;
+    border: 2px solid #fff;
 }
 
 /*Active*/
 
-.secondary-large-icon-text-link-button:focus:active {
-    background-color: #B5D2FF;
+.primary-large-icon-text-link-button:focus:active {
+    background-color: #1E6BDD;
+    outline: none;
+    box-shadow: none;
     border: none;
 }
 
 /*Disabled*/
 
-.secondary-large-icon-text-link-button-disabled {
-    background-color: #EFF2F8;
-    color: #999999;
-    border: 2px solid #818997;
+.primary-large-icon-text-link-button-disabled {
+    background-color: #81B5FD;
     cursor: auto;
     pointer-events: none;
+    text-decoration: none;
 }

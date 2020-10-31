@@ -12,20 +12,20 @@ body {
 
 /*Default*/
 
-.tertiary-large-icon-text-link-button, .tertiary-large-icon-text-link-button-disabled{
+.secondary-small-icon-text-link-button, .secondary-large-icon-text-link-button-disabled {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 200px;
     height: 60px;
     background-color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: #0F6FFF;
     gap: 10px;
     border-radius: 10px;
-    border: none;
+    border: 2px solid #0F6FFF;
     outline: none;
     cursor: pointer;
     text-decoration: none;
@@ -33,37 +33,30 @@ body {
 
 /*Hover*/
 
-.tertiary-large-icon-text-link-button:hover {
-    transition: .4ms;
+.secondary-large-icon-text-link-button:hover {
+    transition: 0.4ms;
     box-shadow: 5px 5px 20px rgba(15, 111, 255, 0.4);
 }
 
 /*Focus*/
 
-.tertiary-large-icon-text-link-button:focus {
-    background-color: #F1F7FF;
-    border: 2px solid #0F6FFF;
-}
-
-/*Focus*/
-
-.tertiary-large-icon-text-link-button:focus {
-    background-color: #F1F7FF;
-    border: 2px solid #0F6FFF;
+.secondary-large-icon-text-link-button:focus {
+    background-color: #DBEAFF;
 }
 
 /*Active*/
 
-.tertiary-large-icon-text-link-button:focus:active {
-    background-color: #D6E6FF;
+.secondary-large-icon-text-link-button:focus:active {
+    background-color: #B5D2FF;
     border: none;
-    outline: none;
 }
 
 /*Disabled*/
 
-.tertiary-large-icon-text-link-button-disabled {
+.secondary-large-icon-text-link-button-disabled {
+    background-color: #EFF2F8;
     color: #999999;
+    border: 2px solid #818997;
     cursor: auto;
     pointer-events: none;
 }

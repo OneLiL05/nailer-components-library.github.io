@@ -12,11 +12,11 @@ body {
 
 /*Default*/
 
-.tertiary-large-icon-text-link-button, .tertiary-large-icon-text-link-button-disabled{
+.tertiary-small-icon-text-link-button, .secondary-large-icon-text-link-button-disabled {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 200px;
     height: 60px;
     background-color: #fff;
     font-family: 'Inter', sans-serif;
@@ -33,28 +33,21 @@ body {
 
 /*Hover*/
 
-.tertiary-large-icon-text-link-button:hover {
+.tertiary-small-icon-text-link-button:hover {
     transition: .4ms;
     box-shadow: 5px 5px 20px rgba(15, 111, 255, 0.4);
 }
 
 /*Focus*/
 
-.tertiary-large-icon-text-link-button:focus {
-    background-color: #F1F7FF;
-    border: 2px solid #0F6FFF;
-}
-
-/*Focus*/
-
-.tertiary-large-icon-text-link-button:focus {
+.tertiary-small-icon-text-link-button:focus {
     background-color: #F1F7FF;
     border: 2px solid #0F6FFF;
 }
 
 /*Active*/
 
-.tertiary-large-icon-text-link-button:focus:active {
+.tertiary-small-icon-text-link-button:focus:active {
     background-color: #D6E6FF;
     border: none;
     outline: none;
@@ -62,7 +55,7 @@ body {
 
 /*Disabled*/
 
-.tertiary-large-icon-text-link-button-disabled {
+.tertiary-small-icon-text-link-button-disabled {
     color: #999999;
     cursor: auto;
     pointer-events: none;
