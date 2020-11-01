@@ -7,5 +7,3 @@
 🐦 Twitter:  [https://twitter.com/kirillofficial3](https://twitter.com/kirillofficial3)
 
 🔗 GitHub: [https://github.com/OneLiL05](https://github.com/OneLiL05)
-
->You can touch components in CodePen project directory: [https://codepen.io/onelil05/project/details/ZdVOKE](https://codepen.io/onelil05/project/details/ZdVOKE)
