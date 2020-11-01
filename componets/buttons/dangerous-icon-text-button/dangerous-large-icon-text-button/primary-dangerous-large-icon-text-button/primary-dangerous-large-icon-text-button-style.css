@@ -59,8 +59,5 @@ body {
 .primary-dangerous-large-icon-text-button:disabled {
     background-color: #FF8680;
     cursor: auto;
-}
-
-.primary-dangerous-large-icon-text-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }

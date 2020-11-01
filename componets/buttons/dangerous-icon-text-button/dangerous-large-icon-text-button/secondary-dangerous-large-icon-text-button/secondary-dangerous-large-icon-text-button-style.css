@@ -57,8 +57,5 @@ body {
     color: #EE6861;
     border: 2px solid #FFB4B0;
     cursor: auto;
-}
-
-.secondary-dangerous-large-icon-text-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }

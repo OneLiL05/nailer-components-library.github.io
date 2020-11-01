@@ -59,8 +59,5 @@ body {
     border: none;
     outline: none;
     cursor: auto;
-}
-
-.tertiary-dangerous-small-icon-text-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }
