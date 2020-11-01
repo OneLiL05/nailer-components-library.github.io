@@ -13,7 +13,7 @@ body {
 
 /*Default*/
 
-.primary-large-link-button {
+.primary-large-link-button, .primary-large-link-button-disabled  {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,20 +57,7 @@ body {
 /*Disabled*/
 
 .primary-large-link-button-disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 60px;
-    background-color: #81B5FD;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 1.125rem;
-    border-radius: 10px;
-    color: #fff;
-    outline: none;
-    border: none;
     cursor: auto;
+    background-color: #81B5FD;
     pointer-events: none;
-    text-decoration: none;
 }

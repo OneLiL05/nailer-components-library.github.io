@@ -13,7 +13,7 @@ body {
 
 /*Default*/
 
-.secondary-large-link-button {
+.secondary-large-link-button, .secondary-large-link-button-disabled {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,20 +55,9 @@ body {
 /*Disabled*/
 
 .secondary-large-link-button-disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 60px;
     background-color: #EFF2F8;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 1.125rem;
     color: #999999;
-    border-radius: 10px;
     border: 2px solid #818997;
-    outline: none;
     cursor: auto;
-    text-decoration: none;
     pointer-events: none;
 }
