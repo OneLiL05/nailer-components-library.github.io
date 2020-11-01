@@ -52,8 +52,5 @@ body {
 
 .tertiary-dangerous-large-icon-button:disabled {
     cursor: auto;
-}
-
-.tertiary-dangerous-large-icon-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }

@@ -54,8 +54,5 @@ body {
 .primary-dangerous-small-button:disabled {
     background-color: #FF8680;
     cursor: auto;
-}
-
-.primary-dangerous-small-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }

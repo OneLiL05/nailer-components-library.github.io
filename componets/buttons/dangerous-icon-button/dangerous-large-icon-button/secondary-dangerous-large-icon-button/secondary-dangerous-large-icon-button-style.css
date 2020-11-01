@@ -51,8 +51,5 @@ body {
     background-color: #FFE6E4;
     border: 2px solid #FFB4B0;
     cursor: auto;
-}
-
-.secondary-dangerous-large-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }
