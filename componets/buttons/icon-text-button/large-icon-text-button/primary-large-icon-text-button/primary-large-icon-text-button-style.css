@@ -58,8 +58,5 @@ body {
 .primary-large-icon-text-button:disabled {
     background-color: #81B5FD;
     cursor: auto;
-}
-
-.primary-large-icon-text-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }

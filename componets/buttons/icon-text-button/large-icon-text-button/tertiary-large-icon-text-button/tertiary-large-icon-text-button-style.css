@@ -57,8 +57,5 @@ body {
 .tertiary-large-icon-text-button:disabled {
     color: #999999;
     cursor: auto;
-}
-
-.tertiary-large-icon-text-button:hover {
-    box-shadow: none;
+    pointer-events: none;
 }

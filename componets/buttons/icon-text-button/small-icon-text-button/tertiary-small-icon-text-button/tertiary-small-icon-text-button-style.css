@@ -58,10 +58,5 @@ body {
 .tertiary-small-icon-text-button:disabled {
     color: #999999;
     cursor: auto;
-    /*Don't copy this style*/
-    margin-top: 40px;
-}
-
-.tertiary-small-icon-text-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }
