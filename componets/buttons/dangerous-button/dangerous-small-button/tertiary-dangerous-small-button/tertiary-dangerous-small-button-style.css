@@ -57,8 +57,5 @@ body {
 .tertiary-dangerous-small-button:disabled {
     color: #FFA39E;
     cursor: auto;
-}
-
-.tertiary-dangerous-small-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }

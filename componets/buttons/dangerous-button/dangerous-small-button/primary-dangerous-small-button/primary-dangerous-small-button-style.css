@@ -22,7 +22,7 @@ body {
     background-color: #FF3E33;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 0.875rem;
+    font-size: 1rem;
     border-radius: 10px;
     color: #fff;
     outline: none;
@@ -56,24 +56,7 @@ body {
 /*Disabled*/
 
 .primary-dangerous-small-button:disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 60px;
     background-color: #FF8680;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 0.875rem;
-    border-radius: 10px;
-    color: #fff;
-    outline: none;
-    border: none;
-    cursor: auto;
-    /*Don't copy this style*/
-    margin-top: 40px;
-}
-
-.primary-dangerous-small-button:disabled:hover {
-    box-shadow: none;
+    font-size: 1rem;
+    pointer-events: none;
 }

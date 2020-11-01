@@ -13,7 +13,7 @@ body {
 
 /*Default*/
 
-.secondary-dangerous-btn {
+.secondary-dangerous-large-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@ body {
     background-color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #FF3E33;
     border-radius: 10px;
     border: 2px solid #FF3E33;
@@ -32,32 +32,29 @@ body {
 
 /*Hover*/
 
-.secondary-dangerous-btn:hover {
+.secondary-dangerous-large-button:hover {
     transition: 0.4ms;
     box-shadow: 5px 5px 20px rgba(255, 62, 51, 0.4);
 }
 
 /*Focus*/
 
-.secondary-dangerous-btn:focus {
+.secondary-dangerous-large-button:focus {
     background-color: #FFDCDA;
 }
 
 /*Active*/
 
-.secondary-dangerous-btn:focus:active {
+.secondary-dangerous-large-button:focus:active {
     background-color: #FFC2BF;
 }
 
 /*Disabled*/
 
-.secondary-dangerous-btn:disabled {
+.secondary-dangerous-large-button:disabled {
     background-color: #FFE6E4;
     color: #EE6861;
     border: 2px solid #FFB4B0;
     cursor: auto;
-}
-
-.secondary-dangerous-btn:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }

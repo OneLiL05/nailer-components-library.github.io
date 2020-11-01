@@ -22,7 +22,7 @@ body {
     background-color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.125rem;
     color: #FF3E33;
     border-radius: 10px;
     border: none;
@@ -55,14 +55,9 @@ body {
 /*Disabled*/
 
 .tertiary-dangerous-large-button:disabled {
-    border-radius: 10px;
+    color: #EE6861;
     border: none;
     outline: none;
     cursor: auto;
-    /*Don't copy this style*/
-    margin-top: 40px;
-}
-
-.tertiary-dangerous-large-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }
