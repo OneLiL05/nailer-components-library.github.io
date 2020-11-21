@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 200px;
-    height: 60px;
+    height: 40px;
     background-color: #0F6FFF;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -57,8 +57,5 @@ body {
 .primary-small-button:disabled {
     background-color: #81B5FD;
     cursor: auto;
-}
-
-.primary-small-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }
