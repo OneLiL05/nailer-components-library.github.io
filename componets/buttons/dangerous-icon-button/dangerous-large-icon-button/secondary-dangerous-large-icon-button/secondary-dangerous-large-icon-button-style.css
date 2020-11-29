@@ -18,9 +18,9 @@ body {
     align-items: center;
     justify-content: center;
     width: 200px;
-    height: 60px;
+    height: 40px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 2px solid #FF3E33;
     outline: none;
     cursor: pointer;
