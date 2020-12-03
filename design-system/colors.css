@@ -1,0 +1,51 @@
+:root {
+    --blue-color: #0F6FFF;
+    --red-color: #FF3E33;
+    --orange-color: #F8A34D;
+    --yellow-color: #F8CE52;
+    --green-color: #5FCF65;
+    --purple-color: #B470D4;
+    --indigo-color: #5E5CE6;
+    --pink-color: #FF2D55;
+    /*Focus colors*/
+    --blue-focus-color: #4F93F7;
+    --red-focus-color: #F77069;
+    --orange-focus-color: #F3B77B;
+    --yellow-focus-color: #F3D57E;
+    --green-focus-color: #87D68C;
+    --purple-focus-color: #C393D9;
+    --indigo-focus-color: #8785E6;
+    --pink-focus-color: #F76480;
+}
+
+.blue-color {
+    background: var(--blue-color);
+}
+
+.red-color {
+    background: var(--red-color);
+}
+
+.orange-color {
+    background: var(--orange-color);
+}
+
+.yellow-color {
+    background: var(--yellow-color);
+}
+
+.green-color {
+    background: var(--green-color);
+}
+
+.purple-color {
+    background: var(--purple-color);
+}
+
+.indigo-color {
+    background: var(--indigo-color);
+}
+
+.pink-color {
+    background: var(--pink-color);
+}

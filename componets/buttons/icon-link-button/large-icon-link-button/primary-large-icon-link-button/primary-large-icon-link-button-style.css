@@ -12,14 +12,14 @@ body {
 
 /*Default*/
 
-.primary-large-icon-link-button {
+.primary-large-icon-link-button, .primary-large-icon-link-button-disabled {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 200px;
-    height: 60px;
+    height: 40px;
     background-color: #0F6FFF;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -51,16 +51,7 @@ body {
 /*Disabled*/
 
 .primary-large-icon-link-button-disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 60px;
     background-color: #81B5FD;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    cursor: auto;
     pointer-events: none;
-    text-decoration: none;
+
 }
