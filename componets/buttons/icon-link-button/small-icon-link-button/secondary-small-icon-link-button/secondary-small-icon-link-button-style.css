@@ -12,15 +12,15 @@ body {
 
 /*Default*/
 
-.secondary-small-icon-link-button {
+.secondary-small-icon-link-button, .secondary-small-icon-link-button-disabled {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background-color: #B5D2FF;
     border: 2px solid #0F6FFF;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     cursor: pointer;
     text-decoration: none;
@@ -47,16 +47,7 @@ body {
 }
 
 .secondary-small-icon-link-button-disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
     background-color: #EFF2F8;
     border: 2px solid #818997;
-    border-radius: 10px;
-    outline: none;
-    cursor: auto;
     pointer-events: none;
-    text-decoration: none;
 }

@@ -13,14 +13,14 @@ body {
 
 /*Default*/
 
-.tertiary-small-icon-link-button {
+.tertiary-small-icon-link-button, .tertiary-small-icon-link-button-disabled {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -52,16 +52,5 @@ body {
 /*Disabled*/
 
 .tertiary-small-icon-link-button-disabled {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    background-color: #fff;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    cursor: auto;
     pointer-events: none;
-    text-decoration: none;
 }
