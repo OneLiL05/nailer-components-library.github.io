@@ -17,14 +17,14 @@ body {
     align-items: center;
     justify-content: center;
     width: 300px;
-    height: 60px;
+    height: 40px;
     background-color: #0F6FFF;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: #fff;
-    border-radius: 10px;
-    gap: 10px;
+    border-radius: 5px;
+    gap: 5px;
     outline: none;
     border: none;
     cursor: pointer;

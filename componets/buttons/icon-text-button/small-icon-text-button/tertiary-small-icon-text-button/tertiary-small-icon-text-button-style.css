@@ -18,14 +18,14 @@ body {
     align-items: center;
     justify-content: center;
     width: 200px;
-    height: 60px;
+    height: 40px;
     background-color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     color: #0F6FFF;
-    gap: 10px;
-    border-radius: 10px;
+    gap: 5px;
+    border-radius: 5px;
     border: none;
     outline: none;
     cursor: pointer;

@@ -17,9 +17,9 @@ body {
     align-items: center;
     justify-content: center;
     width: 200px;
-    height: 60px;
+    height: 40px;
     background-color: #0F6FFF;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -51,9 +51,5 @@ body {
 
 .primary-large-icon-button:disabled {
     background-color: #81B5FD;
-    cursor: auto;
-}
-
-.primary-large-icon-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }

@@ -17,10 +17,10 @@ body {
     align-items: center;
     justify-content: center;
     width: 200px;
-    height: 60px;
+    height: 40px;
     background-color: #B5D2FF;
     border: 2px solid #0F6FFF;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     cursor: pointer;
 }
@@ -50,9 +50,5 @@ body {
 .secondary-large-icon-button:disabled {
     background-color: #EFF2F8;
     border: 2px solid #818997;
-    cursor: auto;
-}
-
-.secondary-large-icon-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }

@@ -17,10 +17,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -51,9 +51,5 @@ body {
 /*Disabled*/
 
 .tertiary-small-icon-button:disabled {
-    cursor: auto;
-}
-
-.tertiary-small-icon-button:disabled:hover {
-    box-shadow: none;
+    pointer-events: none;
 }
