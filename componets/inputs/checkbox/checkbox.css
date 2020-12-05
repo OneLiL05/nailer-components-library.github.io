@@ -9,6 +9,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
 }
@@ -16,6 +17,9 @@ html, body {
 input[type='checkbox'] {
     height: 0;
     width: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 input[type='checkbox'] + label{
